@@ -1,0 +1,48 @@
+.logo{
+    width: 15rem;
+    padding: 0.5rem;
+    background-color: #092644;
+}
+
+.navbar{
+    background-color: #092644 !important;
+}
+
+.navbar-nav{
+    background-color: #092644;
+    padding-bottom: 0.9rem;
+}
+.navbar-collapse{
+    background-color: #092644
+
+}
+
+.container-fluid, .dropdown-menu{
+    background-color: #092644
+
+}
+.dropdown-item{
+    background-color: #092644
+
+}
+
+.dropdown-item:hover{
+    background-color: #C89300;
+    height: 2rem;
+
+}
+
+.nav-item{
+    margin: 1rem;
+    font-size: 1.5rem;
+    background-color: #092644;
+}
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #CCE2F1;
+    transform: scale(1.08);
+    transition: .4s ease-in-out;
+}
