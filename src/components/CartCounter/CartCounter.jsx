@@ -1,7 +1,7 @@
 const CartCounter = () => {
 
     return(
-        <span id='cart-counter'>4</span>
+        <span id='cartCounter'>4</span>
     )
 }
 

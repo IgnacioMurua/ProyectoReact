@@ -8,7 +8,7 @@ const CartWidget = () => {
     return(
         <div className='cart'>
             <div>
-                <img className='cart-icon' src={cartIcon} alt="" />
+                <img className='cartIcon' src={cartIcon} alt="Shopping cart" />
             </div>
             <CartCounter/>
         </div>

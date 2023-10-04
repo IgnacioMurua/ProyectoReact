@@ -1,4 +1,4 @@
-h2{
+h2 {
     text-align: center;
     font-weight: bold;
     margin: 3rem;
@@ -6,9 +6,9 @@ h2{
     color: #003153;
 }
 
-.products{
-    padding: 30px;
-        width: 95%;
-        margin: auto;
-        display: flex;
+.products {
+    padding: 2rem;
+    width: 95%;
+    margin: auto;
+    display: flex;
 }

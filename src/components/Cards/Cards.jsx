@@ -1,15 +1,15 @@
-import './Cards.css'
+import './cards.css'
 
 const Cards = (props) => {
 
 
     return(
         <div className='cards'>
-            <h3 className='card-title'>{props.title}</h3>
-            <img className='card-img' src={props.img} alt="Product" />
-            <p className='card-desc'>{props.desc}</p>
-            <p className='card-price'>{props.price}</p>
-            <button className='card-button'>Añadir</button>
+            <h3 className='cardTitle'>{props.title}</h3>
+            <img className='cardImg' src={props.img} alt="Product" />
+            <p className='cardDesc'>{props.desc}</p>
+            <p className='cardPrice'>{props.price}</p>
+            <button className='cardButton'>Añadir</button>
         </div>
     )
 }

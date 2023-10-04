@@ -1,4 +1,4 @@
-.cart-icon{
+.cartIcon{
     width: 3rem;
     background-color: #092644
 }
@@ -8,7 +8,7 @@
     margin-right: 3.5rem;
 }
 
-#cart-counter {
+#cartCounter {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -16,10 +16,10 @@
     top: 7%;
     left: 87%;
     background: white;
-    width: 23px;
-    height: 23px;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
-    font-size: 17px;
-    font-weight: 740;
+    font-size: 1.2rem;
+    font-weight: bold;
     color: #003153
 }
