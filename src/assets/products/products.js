@@ -23,7 +23,7 @@ export default [
     'price': '$121.799'
     },
     {'img': tv1,
-    'title': 'Samsung 50" 50AU7000',
+    'title': 'Samsung 50" AU7000',
     'desc': 'Descripcion producto',
     'price': '$249.999'
     },
