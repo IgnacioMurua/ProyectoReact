@@ -1,4 +1,3 @@
-import products from '../images/products.jpg'
 import phone1 from '../images/productsImg/a22.png'
 import phone2 from '../images/productsImg/g32.png'
 import mac from '../images/productsImg/mac.png'
@@ -32,5 +31,4 @@ export default [
     'desc': 'Descripcion producto',
     'price': '$270.315'
     },
-
 ]

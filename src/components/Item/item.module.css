@@ -4,11 +4,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 55vh;
+    height: 60vh;
     margin: 1rem;
+    width: 22vw;
     border-radius: 0.5rem;
     background-color:#003153;
     box-shadow: 5px 5px 6px rgba(0, 49, 83, 0.3);
+}
+.cardsContainer{
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+    margin: 0;
+    
 }
 
 .cardTitle{
