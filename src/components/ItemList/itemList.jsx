@@ -1,4 +1,5 @@
 import Item from '../Item/item'
+import styles from './itemList.module.css'
 
 
 
@@ -9,7 +10,7 @@ const ItemList = ({products}) => {
                 products.length > 0 &&
                 products.map((product) => {
                     return (
-                        <Item key={product.id} product={product} />
+                        <Item className={styles.itemListContainer} key={product.id} product={product} />
                     )
                 })
             }

@@ -6,10 +6,8 @@ import styles from'./CartWidget.module.css'
 const CartWidget = () => {
 
     return(
-        <div className='cart'>
-            <div>
+        <div className={styles.cart}>
                 <img className={styles.cartIcon} src={cartIcon} alt="Shopping cart" />
-            </div>
             <CartCounter/>
         </div>
     )

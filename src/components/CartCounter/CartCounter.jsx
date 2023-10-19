@@ -1,9 +1,10 @@
-import styles from "../CartWidget/CartWidget.module.css"
+import styles from "./cartCounter.module.css"
+
 
 const CartCounter = () => {
 
     return(
-        <span className={styles.CartCounter}>4</span>
+        <span className={styles.cartCounter}>4</span>
     )
 }
 

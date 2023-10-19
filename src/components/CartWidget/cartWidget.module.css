@@ -1,25 +1,9 @@
 .cartIcon{
     width: 3rem;
-    background-color: #092644
+    background-color: #092644;
 }
 
 .cart{
     position: relative;
-    margin-right: 3.5rem;
-}
-
-.cartCounter {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 7%;
-    left: 87%;
-    background: white;
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 50%;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #003153
+    margin-right: 4.5rem;
 }
