@@ -6,29 +6,39 @@ import tv2 from '../images/productsImg/lgTv.png'
 
 export default [
 
-    {'img': mac,
-    'title': 'Macbook Pro',
-    'desc': 'Descripcion producto',
-    'price': '$871.277'
+    {
+        'id': 1,
+        'img': mac,
+        'title': 'Macbook Pro',
+        'desc': 'Descripcion producto',
+        'price': '$871.277'
     },
-    {'img': phone1,
-    'title': 'Samsung A22',
-    'desc': 'Descripcion producto',
-    'price': '$179.999'
+    {
+        'id': 2,
+        'img': phone1,
+        'title': 'Samsung A22',
+        'desc': 'Descripcion producto',
+        'price': '$179.999'
     },
-    {'img': phone2,
-    'title': 'Motorola G32',
-    'desc': 'Descripcion producto',
-    'price': '$121.799'
+    {
+        'id': 3,
+        'img': phone2,
+        'title': 'Motorola G32',
+        'desc': 'Descripcion producto',
+        'price': '$121.799'
     },
-    {'img': tv1,
-    'title': 'Samsung 50" AU7000',
-    'desc': 'Descripcion producto',
-    'price': '$249.999'
+    {
+        'id': 4,
+        'img': tv1,
+        'title': 'Samsung 50" AU7000',
+        'desc': 'Descripcion producto',
+        'price': '$249.999'
     },
-    {'img': tv2,
-    'title': 'LG AI ThinQ 4K 50"',
-    'desc': 'Descripcion producto',
-    'price': '$270.315'
+    {
+        'id': 5,
+        'img': tv2,
+        'title': 'LG AI ThinQ 4K 50"',
+        'desc': 'Descripcion producto',
+        'price': '$270.315'
     },
 ]
