@@ -1,60 +1,53 @@
-
 .cards{
-    margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-    margin: 1rem;
-    width: 22vw;
-    border-radius: 0.5rem;
-    background-color:#003153;
-    box-shadow: 5px 5px 6px rgba(0, 49, 83, 0.3);
-}
-.cardTitle{
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: bolder;
-    padding: 0.5rem;
-    width: 96%;
-    margin: 0.5rem;
-    background-color:#003153;
-}
-.cardTitle:hover{
-    color: #CCE2F1;
-    transform: scale(1.02);
-    transition: .4s ease-in-out;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
-.cardImg{
+.cards div{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.cards h4{
+    color: #003153;
+}
+
+.cards img{
     width: 100%;
-    margin: 0.5rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    height: 50%;
+    transition: 1s;
 }
 
-.cardDesc{
-    text-align: center;
-    font-weight: bolder;
-    width: 85%;
-    font-size: 1.5rem;
-    color: #ffff;
-    background-color:#003153;
+.cards img:hover{
+    transform: scale(1.1);
 }
 
-.cardPrice{
-    font-size: 1.3rem;
-    color: #ffff;
-    font-weight: bold;
-    background-color:#003153;
+.cards p{
+    font-size: 1rem;
+    font-weight: 600;
 }
 
-.cardButton{
-    margin-bottom: 1rem;
-    color: #000000; 
-    font-weight: bold;
-    background-color: #ffba00;
-    padding: 0.6rem;
-    box-shadow: 5px 5px 6px rgba(0, 49, 83, 0.3);
-    border-radius: 0.5rem;
-    opacity: 95%;
+.verMas{
+    text-decoration: none;
+    background-color: #003153;
+    font-size: 1.2rem;
+    color: white;
+    padding: .5rem;
+    width: max-content;
+    border-radius: .5rem;
+    transition: .2s;
+    align-self: center;
+}
+
+.verMas:hover {
+    background-color: white;
+    color: #003153;
 }

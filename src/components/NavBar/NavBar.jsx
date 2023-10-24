@@ -1,14 +1,14 @@
-import './NavBar.css'
+import { Link } from 'react-router-dom'
 import logo from '../../assets/images/logo.png'
 import CartWidget from '../cartWidget/CartWidget'
-import { Link } from 'react-router-dom'
+import './NavBar.css'
 
 const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container-fluid">
         <div>
-          <Link to={"/"}><img className='logo' src={logo} alt="" /></Link>
+          <Link to={"/"}><img className="logo" src={logo} alt="" /></Link>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,11 +23,15 @@ const NavBar = () => {
                 Productos
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Celulares</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Televisores</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Computadoras</a></li>
+              <li><Link to={'/products'} className="dropdown-item">Todos</Link></li>
+            <li><hr className="dropdown-divider"/></li>
+            <li><Link to={'/category/jewelery'} className="dropdown-item">Joyas</Link></li>
+            <li><hr className="dropdown-divider"/></li>
+            <li><Link to={"/category/men's%20clothing"} className="dropdown-item">Ropa de Hombre</Link></li>
+            <li><hr className="dropdown-divider"/></li>
+            <li><Link to={"/category/electronics"} className="dropdown-item">Electrónica</Link></li>
+            <li><hr className="dropdown-divider"/></li>
+            <li><Link to={"/category/women's%20clothing"} className="dropdown-item">Ropa de Mujer</Link></li>
               </ul>
             </li>
             <li class="nav-item">
